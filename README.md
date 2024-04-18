@@ -1,1 +1,1 @@
-# infobu
+https://illusionnier.github.io/infobu/
