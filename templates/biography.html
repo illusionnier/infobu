@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/style/style.css">
+    <link rel="stylesheet" href="static/fonts/fonts.css">
+    <link rel="stylesheet" href="static/fonts/fonts.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='static/style/styles.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Биографии</title>
+</head>
+<body>
+    <header>
+
+        <div class="container">
+
+            <div class="header-inner">
+                <nav>
+                    <a href="/">Главная</a>
+                    <a href="/biography">Биографии</a>
+                    <a href="/inter">Интересное</a>
+                    <a href="/check">Проверь себя</a>
+                    <a href="/blog">Блог</a>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <section class="news">
+
+        <div class="container">
+
+            <div class="seans-tite">
+                <img src="static/images/left1.png" alt="">
+    
+                <p>Биографии</p>
+    
+                <img src="static/images/right1.png" alt="">
+            </div>
+
+            <div class="news-content">
+
+                <a href="/oteche" class="news-item oteche">
+                    <div class="news-date">
+                        Обновлено 17.04.2024
+                    </div>
+
+                    <h2>
+                        Отечественные биографии
+                    </h2>
+                </a>
+
+                <a href="/zarubej" class="news-item zarubej">
+                    <div class="news-date">
+                        Обновлено 06.04.2024
+                    </div>
+
+                    <h2>
+                        Зарубежные биографии
+                    </h2>
+                </a>
+
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="container">
+            <div class="footer-bottom">
+                <p>© 2024 GUPpros<p>
+                <p>Сделано illusion, abdekvat, victorygaz</p>
+            </div>
+
+        </div>
+
+   </section>
+
+</body>
+</html>
